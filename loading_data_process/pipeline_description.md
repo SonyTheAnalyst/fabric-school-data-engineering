@@ -14,7 +14,7 @@ this activity will ignore the 100 old files and pass only the single new filenam
 ```@activity('Get Metadata1').output.childItems```
 
 
-### the noebook activity
+### the noebook activity [notebook]<https://github.com/SonyTheAnalyst/fabric-school-data-engineering/blob/cfceeac3c230720042b5ad2b0575d18041093e97/loading_data_process/row_to_landing.ipynb>
 processes each file identified by the metadata activity. Its particularity lies in its parameterization: 
 it is configured to dynamically accept the filename (today_file) from the ForEach iterator and the current date (processed_Date) as inputs. 
 For example, if the pipeline finds a file named data.csv, it passes that name into the notebook's logic so the code knows exactly 
