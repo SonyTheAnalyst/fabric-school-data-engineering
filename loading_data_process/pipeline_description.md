@@ -19,3 +19,4 @@ processes each file identified by the metadata activity. Its particularity lies 
 it is configured to dynamically accept the filename (today_file) from the ForEach iterator and the current date (processed_Date) as inputs. 
 For example, if the pipeline finds a file named data.csv, it passes that name into the notebook's logic so the code knows exactly 
 which specific file to move or transform from the "raw" zone to the "landing" zone during that specific loop iteration.
+<img width="819" height="382" alt="image" src="https://github.com/user-attachments/assets/cd4f5d1a-58dc-4adf-b9dd-39e490883845" /> 
