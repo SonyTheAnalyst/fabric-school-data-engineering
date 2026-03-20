@@ -10,6 +10,9 @@ historical CSV files but a new file named sales_2026_03_20.csv was uploaded this
 this activity will ignore the 100 old files and pass only the single new filename to the subsequent ForEach loop for processing.
 
 ---
+<img width="1123" height="415" alt="image" src="https://github.com/user-attachments/assets/4cf8520e-9261-45fa-a63e-ce7e3c812422" />
+
+---
 ## The for each actitity 
 ```@activity('Get Metadata1').output.childItems```
 
